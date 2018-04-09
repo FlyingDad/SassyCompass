@@ -1,0 +1,1 @@
+function other(){return document.querySelector("#header").textContent="Changed the header",console.log("other"),"Other file"}function test(){console.log("Hello World")}other(),test();

@@ -1,0 +1,26 @@
+{
+  "name": "sassycompass",
+  "version": "1.0.0",
+  "description": "Sass Lessons",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlyingDad/SassyCompass.git"
+  },
+  "author": "Michael Kroth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlyingDad/SassyCompass/issues"
+  },
+  "homepage": "https://github.com/FlyingDad/SassyCompass#readme",
+  "dependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "matchdep": "^2.0.0"
+  }
+}
