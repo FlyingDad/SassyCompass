@@ -1,0 +1,61 @@
+// Speakers ----------------------
+.speakers {
+	.artist {
+		@include clearfix;
+		h3 {
+			padding: 10 0 5 0;
+			border-bottom: 1px dotted $lightgray;
+			margin-bottom: 5px;
+		}
+	}
+	img {
+		@include border-radius();
+		width: 120px;
+		float: left;
+		margin: {
+			right: 10px;
+			bottom: 10px;
+		}
+	}
+}
+
+//NEXT MEETING
+
+#nextmeeting {
+	@include clearfix;
+	img {
+		width: 30%;
+		max-width: 130px;
+		float: left;
+		margin-right: 10px;
+	}
+}
+
+//SOCIAL MEDIA
+.socialmediaicons {
+	.title {
+		float: left;
+	}
+	ul {
+		float: left;
+		li {
+			display: inline-block;
+			margin-left: 5px;
+			img {
+				width: 30px;
+				@include border-radius(50%);
+			}
+		}
+	}
+}
+
+// PHOTOgrid
+.pixgrid {
+	@include clearfix;
+	img {
+		border-radius: 20%;
+		max-width: 120px;
+		cursor: pointer;
+	}
+}
+

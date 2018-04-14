@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
+/* line 5, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 5, ../components/sass/_base.scss */
+body {
+  font-family: Merriweather, serif;
+  font-size: 1.2 rem;
+  line-height: 160%;
+  background-color: #EAE3CB; }
+
+/* line 12, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bree Serif, serif;
+  font-weight: normal;
+  color: #475B62;
+  text-shadow: #FCF4DC 1px 1px; }
+
+/* line 19, ../components/sass/_base.scss */
+h1 {
+  font-size: 2.2rem;
+  color: #1f7f9e;
+  margin-bottom: .4rem;
+  padding-top: 10px;
+  border-bottom: 1px solid #819090; }
+
+/* line 27, ../components/sass/_base.scss */
+h2 {
+  font-size: 1.5rem;
+  color: #BD3613;
+  margin: 20px 0 0 0;
+  line-height: 100%; }
+
+/* line 34, ../components/sass/_base.scss */
+h3 {
+  font-size: 1.8rem;
+  color: #BD3613;
+  line-height: 60%; }
+
+/* line 40, ../components/sass/_base.scss */
+a {
+  text-decoration: underline;
+  color: #536870; }
+  /* line 43, ../components/sass/_base.scss */
+  a:hover {
+    color: #BD3613; }
+
+/* line 48, ../components/sass/_base.scss */
+p {
+  margin-bottom: 10px; }
+
+/* line 52, ../components/sass/_base.scss */
+.small {
+  font-size: 1rem;
+  color: #2176C7; }
+
+/* line 14, ../../../../../../Library/Ruby/Gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susyone/_grid.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 13, ../components/sass/_layout.scss */
+.layout {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%; }
+  /* line 38, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layout:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 17, ../components/sass/_layout.scss */
+  .layout .primary {
+    margin-top: 2em; }
+    @media (min-width: 47em) {
+      /* line 17, ../components/sass/_layout.scss */
+      .layout .primary {
+        width: 66.10169%;
+        float: left;
+        margin-right: 1.69492%; }
+        /* line 22, ../components/sass/_layout.scss */
+        .layout .primary #nextmeeting {
+          -moz-border-radius: 20px;
+          -webkit-border-radius: 20px;
+          border-radius: 20px;
+          color: #EAE3CB;
+          margin-bottom: 10px;
+          margin-top: 10px;
+          padding: 0 20px 20px 20px;
+          background: #259286; }
+          /* line 30, ../components/sass/_layout.scss */
+          .layout .primary #nextmeeting h1 {
+            color: #16554e;
+            border: none;
+            text-shadow: none;
+            margin-bottom: 20px; }
+          /* line 37, ../components/sass/_layout.scss */
+          .layout .primary #nextmeeting a {
+            color: #0A2933; } }
+
+/* line 48, ../components/sass/_layout.scss */
+header img {
+  width: 95%;
+  margin: 2.5%;
+  max-width: 500px;
+  margin-bottom: 0; }
+
+/* line 58, ../components/sass/_layout.scss */
+.navigation {
+  background: #175c73; }
+  /* line 62, ../components/sass/_layout.scss */
+  .navigation ul.nav li svg {
+    color: #f7b71a;
+    padding-right: .5em; }
+  /* line 67, ../components/sass/_layout.scss */
+  .navigation ul.nav a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #FCF4DC; }
+
+/* line 77, ../components/sass/_layout.scss */
+footer {
+  color: #EAE3CB;
+  background: #0d3340;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px; }
+
+/* line 3, ../components/sass/_modules.scss */
+.speakers .artist {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 5, ../components/sass/_modules.scss */
+  .speakers .artist h3 {
+    padding: 10 0 5 0;
+    border-bottom: 1px dotted #819090;
+    margin-bottom: 5px; }
+/* line 11, ../components/sass/_modules.scss */
+.speakers img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+/* line 24, ../components/sass/_modules.scss */
+#nextmeeting {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 26, ../components/sass/_modules.scss */
+  #nextmeeting img {
+    width: 30%;
+    max-width: 130px;
+    float: left;
+    margin-right: 10px; }
+
+/* line 36, ../components/sass/_modules.scss */
+.socialmediaicons .title {
+  float: left; }
+/* line 39, ../components/sass/_modules.scss */
+.socialmediaicons ul {
+  float: left; }
+  /* line 41, ../components/sass/_modules.scss */
+  .socialmediaicons ul li {
+    display: inline-block;
+    margin-left: 5px; }
+    /* line 44, ../components/sass/_modules.scss */
+    .socialmediaicons ul li img {
+      width: 30px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+
+/* line 53, ../components/sass/_modules.scss */
+.pixgrid {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 55, ../components/sass/_modules.scss */
+  .pixgrid img {
+    border-radius: 20%;
+    max-width: 120px;
+    cursor: pointer; }
